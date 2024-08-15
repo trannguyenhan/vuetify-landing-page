@@ -2,6 +2,10 @@
 
 #### This is an example of a landing page built with vue and vuetify.
 
+## Requirements
+
+- node version: v10.24.1
+- npm version: 6.14.12
 
 ## 🚀 Project setup
 
@@ -31,6 +35,17 @@ Compiles and minifies for production
 ```bash
 npm run build
 ```
+
+## Build with product
+
+
+Run with docker
+
+```bash
+docker-compose up
+```
+
+Access [http://localhost:8080/](http://localhost:8080/) to demo.
 
 ### 🛠️ Technologies
 

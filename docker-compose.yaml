@@ -1,0 +1,15 @@
+version: "2.1"
+services:
+  web-service:
+    image: vuetify:latest
+    container_name: vuetify
+    ports:
+      - 8080:80
+    restart: always
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "10"
+    build:
+      context: .
+      dockerfile: ./Dockerfile
